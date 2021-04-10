@@ -1,0 +1,12 @@
+<svg id="check" xmlns="http://www.w3.org/2000/svg" width="16.093" height="11.09" viewBox="0 0 16.093 11.09">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f45b2e;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_4_copy_2" data-name="Rounded Rectangle 4 copy 2" class="cls-1" d="M435.9,3359.9a1.51,1.51,0,0,1,2.121,0l4.071,4.07a1.5,1.5,0,0,1-2.121,2.13l-4.071-4.08A1.5,1.5,0,0,1,435.9,3359.9Z" transform="translate(-435.469 -3355.47)"/>
+  <path id="Rounded_Rectangle_4_copy_3" data-name="Rounded Rectangle 4 copy 3" class="cls-1" d="M451.1,3355.9a1.51,1.51,0,0,0-2.121,0l-8.071,8.07a1.5,1.5,0,0,0,2.121,2.13l8.071-8.08A1.5,1.5,0,0,0,451.1,3355.9Z" transform="translate(-435.469 -3355.47)"/>
+</svg>

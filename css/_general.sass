@@ -1,0 +1,77 @@
+//<шрифты>
+
+//<подключаем шрифты>
+
+@font-face
+  font-family: 'regular'
+  src: url(../fonts/CeraPro-Regular.woff2)
+
+@font-face
+  font-family: 'bold'
+  src: url(../fonts/CeraPro-Bold.woff2)
+
+
+//</подключаем шрифты>
+
+//<шрифт по умолчанию>
+
+//</шрифт по умолчанию>
+
+//</шрифты>
+
+//<переменные>
+$regular: "regular"
+$bold: "bold"
+$black: #20243b
+$placeholder: rgba(32, 36, 59, 0.5)
+$red: #f45b2e
+//</переменные>
+
+//<общие параметры>
+
+body
+  color: $black
+  font-family: $regular
+  background-color: #ededed
+
+input
+
+.block
+  position: relative
+  margin-bottom: 50px
+  @media (max-width: 575.98px)
+    margin-bottom: 25px
+
+input
+  color: $black
+  font-family: $regular
+  font-size: 24px
+  @media (max-width: 575.98px)
+    font-size: 16px
+  &::placeholder
+    color: $placeholder
+    font-size: 24px
+    opacity: 0.5
+    @media (max-width: 575.98px)
+      font-size: 16px
+
+.dateInput[type="text"] + span
+  background: url("../img/calendar.png") no-repeat center
+  background-size: contain
+  position: absolute
+  right: 13px
+  width: 24px
+  height: 24px
+  top: 6px
+
+.was-validated .dateInput[type="text"].form-control:invalid + span
+  right: 37px
+
+
+//<общие параметры>
+
+
+//<основной блок>
+
+//</основной блок>
+
